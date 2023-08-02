@@ -1,0 +1,30 @@
+.book-item-cover-pic {
+  height: 200px;
+  width: 150px;
+  background-color: transparent;
+}
+
+.book-item-list-container {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  width: 50%;
+}
+
+.book-item-details-card-container {
+  width: 50%;
+}
+
+.book-item-avg-rating-container {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: inherit;
+}
+
+.book-item-btn {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}

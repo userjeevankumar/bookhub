@@ -1,0 +1,33 @@
+.book-shelves-bg-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #f8faf0;
+  height: 100vh;
+  background-size: cover;
+}
+
+.bookshelves-filters-container-lg {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  margin: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .books-filters-sm {
+    display: none;
+  }
+}
+
+.bookList-container {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.container-filtered-listed-names {
+  list-style: none;
+}
